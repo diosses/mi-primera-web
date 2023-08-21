@@ -1,0 +1,18 @@
+body{
+    background-color: darkcyan;
+}
+nav {
+    background-color: azure;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50pt;
+    letter-spacing: 5pt;
+    padding:3%;
+}
+.thumb{
+    width:285px;
+    height:285px;
+    object-fit: cover;
+    
+}
