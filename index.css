@@ -2,17 +2,45 @@ body{
     background-color: darkcyan;
 }
 nav {
-    background-color: azure;
+    background-color: azure; 
+}
+.nav-link{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 22pt;
+    color:#171F28;
+    overflow: visible;
+}
+.nav-link:hover{
+    background-color: darkcyan;
+    color:azure;
+    
 }
 h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
+    color: #171F28;
     font-size: 50pt;
     letter-spacing: 5pt;
     padding:3%;
+}
+h2{
+    font-family: monospace;
+    color: #171F28;
+    font-size: 30pt;
+}
+p{
+    font-family: monospace;
+    color: #171F28;
+    font-size: 16pt;
 }
 .thumb{
     width:285px;
     height:285px;
     object-fit: cover;
     
+}
+.thumb-carousel{
+    height:700px;
+    object-fit: cover;
+    border-radius: 10%;
 }

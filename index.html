@@ -9,58 +9,51 @@
   </head>
   <body>
     <nav class="nav align-items-center">
-        <a class="nav-link navbar-brand" href="#"><img src="img/logo.svg" width="150" height="60"></a>
+        <a class="nav-link navbar-brand" href="index.html"><img src="img/logo.svg" width="150" height="60"></a>
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         <a class="nav-link" href="categorias.html">Categorías</a>
     </nav>
-    <div class="container-fluid text-center">
+    <div class="container text-center">
         <div class="row"><h1>¡BIENVENIDO!</h1></div>
-        <div class="container justify-content-center">
-            <div class="row row-cols-auto justify-content-center">
-                <div class="col p-5">
-                    <div class="card" style="width: 18rem;">
-                        <a href="cat/rpg.html"><img src="img/RPG.jpg" class="thumb card-img-top" alt="RPG"></a>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <a href="cat/rpg.html" class="btn btn-primary">RPG</a>
-                        </div>
+        <div class="row">
+            <div class="container" style="width: 70%;">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                </div>
-                <div class="col p-5">
-                    <div class="card" style="width: 18rem;">
-                        <a href="cat/pelea.html"><img src="img/estrategia.jpg" class="thumb card-img-top" alt="Estrategia"></a>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <a href="cat/pelea.html" class="btn btn-primary">Estrategia</a>
-                        </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="cat/rpg.html"><img src="img/chrono.jpg" class="d-block w-100 thumb-carousel">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: azure; background-; border-radius: 5%;">
+                        <h2>Juegos de RPG</h2>
+                        <p>¡Revisa nuestra sección de RPGs!.</p>
+                        </div></a>
                     </div>
-                </div>
-                <div class="col p-5">
-                    <div class="card" style="width: 18rem;">
-                        <a href="cat/shooter.html"><img src="img/shooter.jpg" class="thumb card-img-top" alt="Shooter"></a>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <a href="cat/shooter.html" class="btn btn-primary">Shooter</a>
-                        </div>
+                    <div class="carousel-item ">
+                        <a href="cat/plataforma.html"><img src="img/megaman.jpg" class="d-block w-100 thumb-carousel" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: azure; border-radius: 5%;">
+                        <h2>Juegos de Plataforma</h2>
+                        <p>¡Revisa nuestra sección de plataformeros!</p>
+                        </div></a>
                     </div>
-                </div>
-                <div class="col p-5">
-                    <div class="card" style="width: 18rem;">
-                        <a href="cat/pelea.html"><img src="img/pelea.jpg" class="thumb card-img-top" alt="Pelea"></a>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <a href="cat/pelea.html" class="btn btn-primary">Pelea</a>
-                        </div>
+                    <div class="carousel-item">
+                        <a href="cat/estrategia.html"><img src="img/warcraft3.jpg" class="d-block w-100 thumb-carousel" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="background-color: azure; border-radius: 5%;">
+                        <h2>Juegos de Estrategia</h2>
+                        <p>¡Revisa nuestra sección de Estrategia!</p>
+                        </div></a>
                     </div>
-                </div>
-                <div class="col p-5">
-                    <div class="card" style="width: 18rem;">
-                        <a href="cat/plataforma.html"><img src="img/plataforma.jpg" class="thumb card-img-top" alt="Plataforma"></a>
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <a href="cat/plataforma.html" class="btn btn-primary">Plataforma</a>
-                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div> 
